@@ -33,13 +33,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
         mMainNav = findViewById(R.id.bottom_navigation);
-
 
         mMainNav.setOnNavigationItemSelectedListener(navListener);
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container , new ExploreFragment() ).commit();
-
 
     }
 
@@ -62,7 +59,6 @@ public class MainActivity extends AppCompatActivity {
             return true;
         }
     };
-
 
 
 //    public void setData(String title) {

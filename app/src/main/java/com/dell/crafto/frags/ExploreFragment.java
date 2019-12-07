@@ -42,6 +42,7 @@ public class ExploreFragment extends Fragment {
     RecyclerView rv;
     static ProductsAdapter adapter;
     static List<Item> data = new ArrayList<>();
+
     Context context;
     private EndPoint endPoint = (EndPoint) RetrofitBase.getData().create(EndPoint.class);
 
@@ -56,18 +57,11 @@ public class ExploreFragment extends Fragment {
 //
 //        // Inflate the layout for this fragment
         rv = rootView.findViewById(R.id.products);
-        setupRecyclerView(container);
+        rv.setLayoutManager(new LinearLayoutManager(container.getContext()));
 
         search(container);
         return rootView;
     }
-
-    private void setupRecyclerView(ViewGroup viewGroup) {
-        rv.setLayoutManager(new LinearLayoutManager(viewGroup.getContext()));
-        adapter = new ProductsAdapter();
-        rv.setAdapter(adapter);
-    }
-
 
     @Override
     public void onViewCreated(View view, Bundle savedInstanceState) {
@@ -87,10 +81,8 @@ public class ExploreFragment extends Fragment {
             @Override
             public void onResponse(Call<ProductData> call, Response<ProductData> response) {
 //                List<String> authors = response.body().get(1).getAuthors();
-                if (response.body() != null) {
+                if (response.body().getItems() != null) {
                     data = response.body().getItems();
-
-
                     adapter = new ProductsAdapter();
                     adapter.setProducts(data);
                     rv.setAdapter(adapter);
