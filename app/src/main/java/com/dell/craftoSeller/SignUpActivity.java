@@ -1,4 +1,4 @@
-package com.dell.crafto;
+package com.dell.craftoSeller;
 
 import android.app.ProgressDialog;
 import android.os.Bundle;

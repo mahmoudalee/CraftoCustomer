@@ -1,4 +1,4 @@
-package com.dell.crafto.frags;
+package com.dell.craftoSeller.frags;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -12,10 +12,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import com.dell.crafto.LSAdapter;
-import com.dell.crafto.ProductsAdapter;
-import com.dell.crafto.R;
-import com.dell.crafto.model.Product;
+import com.dell.craftoSeller.LSAdapter;
+import com.dell.craftoSeller.R;
+import com.dell.craftoSeller.model.Product;
 
 import java.util.ArrayList;
 import java.util.List;

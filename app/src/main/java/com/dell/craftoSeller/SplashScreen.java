@@ -1,4 +1,4 @@
-package com.dell.crafto;
+package com.dell.craftoSeller;
 
 import android.graphics.Color;
 import android.os.Build;

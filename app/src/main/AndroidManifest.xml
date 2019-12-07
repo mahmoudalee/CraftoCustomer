@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.dell.crafto">
+    package="com.dell.craftoSeller">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <application
@@ -11,14 +11,14 @@
         android:supportsRtl="true"
         android:usesCleartextTraffic="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.dell.craftoSeller.MainActivity">
 
         </activity>
-        <activity android:name=".LoginActivity">
+        <activity android:name="com.dell.craftoSeller.LoginActivity">
 
         </activity>
-        <activity android:name=".SignUpActivity"/>
-        <activity android:name=".SplashScreen">
+        <activity android:name="com.dell.craftoSeller.SignUpActivity"/>
+        <activity android:name="com.dell.craftoSeller.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

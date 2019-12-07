@@ -1,4 +1,4 @@
-package com.dell.crafto.network;
+package com.dell.craftoSeller.network;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

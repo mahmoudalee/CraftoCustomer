@@ -1,8 +1,7 @@
-package com.dell.crafto.frags;
+package com.dell.craftoSeller.frags;
 
 
 import android.content.Context;
-import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -12,19 +11,15 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.dell.crafto.MainActivity;
-import com.dell.crafto.ProductsAdapter;
-import com.dell.crafto.R;
-import com.dell.crafto.model.Item;
-import com.dell.crafto.model.Product;
-import com.dell.crafto.model.ProductData;
-import com.dell.crafto.network.EndPoint;
-import com.dell.crafto.network.RetrofitBase;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.dell.craftoSeller.ProductsAdapter;
+import com.dell.craftoSeller.R;
+import com.dell.craftoSeller.model.Item;
+import com.dell.craftoSeller.model.ProductData;
+import com.dell.craftoSeller.network.EndPoint;
+import com.dell.craftoSeller.network.RetrofitBase;
 
 import java.util.ArrayList;
 import java.util.List;

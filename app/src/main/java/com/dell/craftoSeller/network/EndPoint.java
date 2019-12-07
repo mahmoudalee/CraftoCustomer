@@ -1,7 +1,7 @@
-package com.dell.crafto.network;
+package com.dell.craftoSeller.network;
 
 
-import com.dell.crafto.model.ProductData;
+import com.dell.craftoSeller.model.ProductData;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

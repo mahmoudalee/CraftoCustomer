@@ -1,4 +1,4 @@
-package com.dell.crafto;
+package com.dell.craftoSeller;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.dell.crafto", appContext.getPackageName());
+        assertEquals("com.dell.craftoSeller", appContext.getPackageName());
     }
 }

@@ -1,4 +1,4 @@
-package com.dell.crafto.model;
+package com.dell.craftoSeller.model;
 
 import android.graphics.Bitmap;
 

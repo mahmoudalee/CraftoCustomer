@@ -1,5 +1,5 @@
 
-package com.dell.crafto.model;
+package com.dell.craftoSeller.model;
 
 import java.util.List;
 import com.google.gson.annotations.SerializedName;

@@ -1,4 +1,4 @@
-package com.dell.crafto.frags;
+package com.dell.craftoSeller.frags;
 
 
 import android.content.Intent;
@@ -10,8 +10,8 @@ import android.widget.Button;
 
 import androidx.fragment.app.Fragment;
 
-import com.dell.crafto.LoginActivity;
-import com.dell.crafto.R;
+import com.dell.craftoSeller.LoginActivity;
+import com.dell.craftoSeller.R;
 
 
 /**

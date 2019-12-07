@@ -1,29 +1,16 @@
-package com.dell.crafto;
+package com.dell.craftoSeller;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.MenuItem;
-import android.view.View;
 
-import com.dell.crafto.frags.ExploreFragment;
-import com.dell.crafto.frags.FavoritesFragment;
-import com.dell.crafto.frags.ProfileFragment;
-import com.dell.crafto.model.Item;
-import com.dell.crafto.model.ProductData;
-import com.dell.crafto.network.EndPoint;
-import com.dell.crafto.network.RetrofitBase;
+import com.dell.craftoSeller.frags.ExploreFragment;
+import com.dell.craftoSeller.frags.FavoritesFragment;
+import com.dell.craftoSeller.frags.ProfileFragment;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
-
-import java.util.ArrayList;
-import java.util.List;
-
-import retrofit2.Call;
-import retrofit2.Callback;
-import retrofit2.Response;
 
 public class MainActivity extends AppCompatActivity {
     private BottomNavigationView mMainNav;

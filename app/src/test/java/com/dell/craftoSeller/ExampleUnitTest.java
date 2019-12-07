@@ -1,4 +1,4 @@
-package com.dell.crafto;
+package com.dell.craftoSeller;
 
 import org.junit.Test;
 
