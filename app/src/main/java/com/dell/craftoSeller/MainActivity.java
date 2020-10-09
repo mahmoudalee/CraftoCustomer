@@ -23,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
         mMainNav = findViewById(R.id.bottom_navigation);
 
         mMainNav.setOnNavigationItemSelectedListener(navListener);
+
         getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container , new ExploreFragment() ).commit();
 
     }
@@ -31,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
             Fragment selectedFragment = null;
+
             switch (menuItem.getItemId()){
                 case R.id.nav_home:
                     selectedFragment = new ExploreFragment();
